@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LEGION\\Desktop\\FP SD progress\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data.csproj",
+      "projectUniqueName": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data.csproj",
       "projectName": "FP_Struktur_Data",
-      "projectPath": "C:\\Users\\LEGION\\Desktop\\FP SD progress\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data.csproj",
+      "projectPath": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data.csproj",
       "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LEGION\\Desktop\\FP SD progress\\FP_Struktur_Data\\FP_Struktur_Data\\obj\\",
+      "outputPath": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
