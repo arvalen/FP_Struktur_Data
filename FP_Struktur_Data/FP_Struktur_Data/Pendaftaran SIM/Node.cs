@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace FP_Struktur_Data.Pendaftaran_SIM
 {
-    internal class Node
+
+    public class Node
     {
+        public object Data { get; set; }
+        public Node Next { get; set; }
+
+        public Node(object data)
+        {
+            Data = data;
+            Next = null;
+        }
+
+        public Node(object data, Node next)
+        {
+            Data = data;
+            Next = next;
+        }
     }
 }
