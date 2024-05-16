@@ -69,6 +69,8 @@ public class App
     {
         Console.WriteLine("\nLihat Daftar Antrian");
         Console.WriteLine("====================");
+        ktp.Display();
+
     }
 
     private void KeluarAntrian()

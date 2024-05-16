@@ -38,5 +38,15 @@ namespace FP_Struktur_Data.Pendaftaran_SIM
             return daftarAntrian.IsEmpty();
         }
 
+        public void Display()
+        {
+            daftarAntrian.Display();
+        }
+
+        public void Display(string no, string nama, string alamat, string jenisSIM, DateTime tanggalPendaftaran)
+        {
+            daftarAntrian.Display();
+        }
+
     }
 }

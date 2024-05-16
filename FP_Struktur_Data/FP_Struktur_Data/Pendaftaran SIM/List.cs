@@ -71,5 +71,24 @@ namespace FP_SD.Pendaftaran_SIM
             return this.First == null;
         }
 
+        public void Display()
+        {
+            if (IsEmpty())
+            {
+                Console.WriteLine("\nAntrian kosong\n");
+                return;
+            }
+            Console.WriteLine("========================Urutan Antrian========================");
+            Console.WriteLine("|| No. || Nama || Alamat || Jenis SIM || Tanggal Pendaftaran ||");
+            Console.WriteLine("==============================================================");
+            Node now = this.First;
+            while (now != null)
+            {
+                Console.WriteLine($"{now.Data}");
+                now = now.Next;
+            }
+            Console.WriteLine("\n");
+        }
+
     }
 }
