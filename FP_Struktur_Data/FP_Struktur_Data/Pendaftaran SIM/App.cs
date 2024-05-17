@@ -55,8 +55,20 @@ public class App
         Console.Write("Masukkan Alamat Pendaftar: ");
         string alamat = Console.ReadLine();
 
-        Console.Write("Masukkan Jenis SIM (A/B/C): : ");
-        string jenisSIM = Console.ReadLine();
+        string jenisSIM;
+        while (true)
+        {
+            Console.Write("Masukkan Jenis SIM (A/B/C): ");
+            jenisSIM = Console.ReadLine().ToUpper();
+            if (jenisSIM == "A" || jenisSIM == "B" || jenisSIM == "C")
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Jenis SIM tidak valid. Masukkan hanya A, B, atau C.");
+            }
+        }
 
         Console.Write("Masukkan Tanggal Pendaftaran (dd/MM/yyyy): ");
         DateTime tanggalPendaftaran = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
