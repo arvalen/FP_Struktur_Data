@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|solutionrelative:fp_struktur_data\\pendaftaran sim\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|c:\\users\\legion\\desktop\\repo fp sd\\fp_struktur_data\\fp_struktur_data\\fp_struktur_data\\pendaftaran sim\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|solutionrelative:fp_struktur_data\\pendaftaran sim\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\fp_struktur_data\\pendaftaran sim\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|solutionrelative:fp_struktur_data\\pendaftaran sim\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\fp_struktur_data\\pendaftaran sim\\datapendaftar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|solutionrelative:fp_struktur_data\\pendaftaran sim\\datapendaftar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +23,8 @@
       "RelativeMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|solutionrelative:fp_struktur_data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|c:\\users\\legion\\desktop\\repo fp sd\\fp_struktur_data\\fp_struktur_data\\fp_struktur_data\\pendaftaran sim\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\fp_struktur_data\\pendaftaran sim\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|solutionrelative:fp_struktur_data\\pendaftaran sim\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\fp_struktur_data\\pendaftaran sim\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|solutionrelative:fp_struktur_data\\pendaftaran sim\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\Program.cs",
               "RelativeDocumentMoniker": "FP_Struktur_Data\\Program.cs",
@@ -48,15 +52,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\Pendaftaran SIM\\App.cs",
-              "RelativeDocumentMoniker": "FP_Struktur_Data\\Pendaftaran SIM\\App.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\Pendaftaran SIM\\App.cs",
-              "RelativeToolTip": "FP_Struktur_Data\\Pendaftaran SIM\\App.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwDQAAAApAAAA",
+              "DocumentIndex": 1,
+              "Title": "List.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\Pendaftaran SIM\\List.cs",
+              "RelativeDocumentMoniker": "FP_Struktur_Data\\Pendaftaran SIM\\List.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\Pendaftaran SIM\\List.cs",
+              "RelativeToolTip": "FP_Struktur_Data\\Pendaftaran SIM\\List.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T16:32:19.949Z",
+              "WhenOpened": "2024-05-25T10:56:12.092Z",
               "EditorCaption": ""
             },
             {
@@ -65,33 +69,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "App.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\Pendaftaran SIM\\App.cs",
+              "RelativeDocumentMoniker": "FP_Struktur_Data\\Pendaftaran SIM\\App.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\Pendaftaran SIM\\App.cs",
+              "RelativeToolTip": "FP_Struktur_Data\\Pendaftaran SIM\\App.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:32:19.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DataPendaftar.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\Pendaftaran SIM\\DataPendaftar.cs",
               "RelativeDocumentMoniker": "FP_Struktur_Data\\Pendaftaran SIM\\DataPendaftar.cs",
               "ToolTip": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\Pendaftaran SIM\\DataPendaftar.cs",
               "RelativeToolTip": "FP_Struktur_Data\\Pendaftaran SIM\\DataPendaftar.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAswCQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T14:29:28.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Queue.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\Pendaftaran SIM\\Queue.cs",
               "RelativeDocumentMoniker": "FP_Struktur_Data\\Pendaftaran SIM\\Queue.cs",
               "ToolTip": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\Pendaftaran SIM\\Queue.cs",
               "RelativeToolTip": "FP_Struktur_Data\\Pendaftaran SIM\\Queue.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAUwDQAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T14:29:13.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Node.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\FP_Struktur_Data\\Pendaftaran SIM\\Node.cs",
               "RelativeDocumentMoniker": "FP_Struktur_Data\\Pendaftaran SIM\\Node.cs",

@@ -8,7 +8,8 @@ using FP_Struktur_Data.Pendaftaran_SIM;
 public class App
 {
     private int pilihan;
-    private Queue ktp = new Queue();
+    private Queue sim = new Queue();
+    private int counter = 1;
 
     public void Run()
     {
@@ -45,9 +46,9 @@ public class App
 
     private void Pendaftaran()
     {
-        Console.WriteLine("\n====Pendaftaran====");
-        Console.Write("Masukkan No. Pendaftar: ");
-        string no = Console.ReadLine();
+        Console.WriteLine("\n=========================-Pendaftaran-========================");
+
+        string no = counter.ToString("D4"); 
 
         Console.Write("Masukkan Nama Pendaftar: ");
         string nama = Console.ReadLine();
@@ -70,18 +71,19 @@ public class App
             }
         }
 
-        Console.Write("Masukkan Tanggal Pendaftaran (dd/MM/yyyy): ");
-        DateTime tanggalPendaftaran = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
+        DateTime tanggalPendaftaran = DateTime.Now;
 
         DataPendaftar kartu = new DataPendaftar(no, nama, alamat, jenisSIM, tanggalPendaftaran);
-        ktp.Enqueue(kartu, 0);
+        sim.Enqueue(kartu, 0);
+
+        counter++;
     }
 
     private void DaftarAntrian()
     {
-        Console.WriteLine("\nLihat Daftar Antrian");
-        Console.WriteLine("====================");
-        ktp.Display();
+        Console.WriteLine("\n====================-Lihat Daftar Antrian-====================");
+        Console.WriteLine("==============================================================");
+        sim.Display();
 
     }
 
@@ -89,13 +91,13 @@ public class App
     {
         Console.WriteLine("\nPanggil Pendaftar");
         Console.WriteLine("=================");
-        if (ktp.IsEmpty())
+        if (sim.IsEmpty())
         {
             Console.WriteLine("\nAntrian telah kosong");
         }
         else
         {
-            object delData = ktp.Dequeue();
+            object delData = sim.Dequeue();
             Console.WriteLine("|| No. || Nama || Alamat || Jenis SIM || Tanggal Pendaftaran ||");
             Console.WriteLine("==============================================================");
             Console.WriteLine($"{delData} telah keluar dari antrian\n");
