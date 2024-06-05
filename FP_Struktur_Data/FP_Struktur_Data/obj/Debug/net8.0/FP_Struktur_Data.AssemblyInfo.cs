@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FP_Struktur_Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+635f2c62f2d5e70c7708a893975bf8ba31f36850")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd34bc0f935ff62f324f74b30837d633a841ed5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("FP_Struktur_Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FP_Struktur_Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

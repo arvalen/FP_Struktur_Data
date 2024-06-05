@@ -4,27 +4,25 @@ using FP_Struktur_Data.Pendaftaran_SIM;
 
 namespace FP_SD.Pendaftaran_SIM
 {
-    public class List
-    {
+    public class DaftarAntrian
+    {   // Properties untuk daftar antrian
         public Node First { get; private set; }
         public Node Last { get; private set; }
         public string No { get; private set; }
-        public string Nama { get; private set; }
-        public string Alamat { get; private set; }
 
-        public List()
+        public DaftarAntrian()  // Konstruktor untuk inisialisasi antrian kosong
         {
-            this.No = "List";
+            this.No = "Antrian";
             this.First = this.Last = null;
         }
 
-        public List(string namaList)
+        public DaftarAntrian(string namaList)    // Konstruktor untuk inisialisasi antrian dengan nama tertentu
         {
             this.No = namaList;
             this.First = this.Last = null;
         }
 
-        public void AddFirst(object data)
+        public void AddFirst(object data)   // Method untuk menambahkan elemen ke depan antrian
         {
             if (IsEmpty())
             {
@@ -36,7 +34,7 @@ namespace FP_SD.Pendaftaran_SIM
             }
         }
 
-        public void AddLast(object data)
+        public void AddLast(object data)    // Method untuk menambahkan elemen ke belakang antrian
         {
             if (IsEmpty())
             {
@@ -48,7 +46,7 @@ namespace FP_SD.Pendaftaran_SIM
             }
         }
 
-        public object RemoveFirst()
+        public object RemoveFirst() // Method untuk menghapus dan mengembalikan elemen pertama dari antrian
         {
             object itemRemove = null;
             if (!IsEmpty())
@@ -66,12 +64,12 @@ namespace FP_SD.Pendaftaran_SIM
             return itemRemove;
         }
 
-        public bool IsEmpty()
+        public bool IsEmpty()   // Method untuk memeriksa apakah antrian kosong
         {
             return this.First == null;
         }
 
-        public void Display()
+        public void Display()   // Method untuk menampilkan semua elemen dalam antrian
         {
             if (IsEmpty())
             {

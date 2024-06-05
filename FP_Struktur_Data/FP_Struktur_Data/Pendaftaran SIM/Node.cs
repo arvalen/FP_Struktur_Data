@@ -8,7 +8,7 @@ namespace FP_Struktur_Data.Pendaftaran_SIM
 {
 
     public class Node
-    {
+    {    // Properties untuk data dan node berikutnya
         public object Data { get; set; }
         public Node Next { get; set; }
 

@@ -2,9 +2,11 @@
 
 class Program
 {
+    // Method utama untuk memulai program
     static void Main(string[] args)
     {
-        App app = new App();
-        app.Run();
+        // Membuat objek SIMQ dan menjalankan program
+        SIMQ simq = new SIMQ();
+        simq.Run();
     }
 }
