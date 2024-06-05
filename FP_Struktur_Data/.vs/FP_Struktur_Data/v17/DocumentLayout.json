@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|solutionrelative:fp_struktur_data\\pendaftaran sim\\daftarantrian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|c:\\users\\legion\\desktop\\repo fp sd\\fp_struktur_data\\fp_struktur_data\\fp_struktur_data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\fp_struktur_data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|solutionrelative:fp_struktur_data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|c:\\users\\legion\\desktop\\repo fp sd\\fp_struktur_data\\fp_struktur_data\\fp_struktur_data\\pendaftaran sim\\simq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|C:\\Users\\LEGION\\Desktop\\Repo FP SD\\FP_Struktur_Data\\FP_Struktur_Data\\fp_struktur_data\\pendaftaran sim\\simq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C9B927D-A9DF-472C-B11A-BB8E35309744}|FP_Struktur_Data\\FP_Struktur_Data.csproj|solutionrelative:fp_struktur_data\\pendaftaran sim\\simq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,8 +47,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T14:09:52.809Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "FP_Struktur_Data\\Pendaftaran SIM\\SIMQ.cs",
               "ViewState": "AQIAAJMAAAAAAAAAAAAowBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T16:32:19.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T16:32:19.949Z"
             },
             {
               "$type": "Document",
@@ -90,8 +88,7 @@
               "RelativeToolTip": "FP_Struktur_Data\\Pendaftaran SIM\\DataPendaftar.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAzwCIAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T14:29:28.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T14:29:28.635Z"
             },
             {
               "$type": "Document",
@@ -103,8 +100,7 @@
               "RelativeToolTip": "FP_Struktur_Data\\Pendaftaran SIM\\Queue.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAQwC0AAACeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T14:29:13.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T14:29:13.073Z"
             },
             {
               "$type": "Document",
@@ -116,8 +112,7 @@
               "RelativeToolTip": "FP_Struktur_Data\\Pendaftaran SIM\\Node.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T14:27:07.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T14:27:07.932Z"
             }
           ]
         }
