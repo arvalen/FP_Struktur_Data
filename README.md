@@ -1,5 +1,9 @@
 # Struktur Data SIMQ
 
+# Valentino Aruan 		        5053231006
+# Pradnadibya Imtiyaz Shidqi	5053231026
+
+
 ## LinkedList
 - **Dalam Kelas DaftarAntrian:**
   - Variabel `First` dan `Last` digunakan untuk menunjukkan node pertama dan terakhir dalam linked list, yang menandakan ujung depan dan belakang dari antrian.
