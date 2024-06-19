@@ -10,11 +10,6 @@ namespace FP_SD.Pendaftaran_SIM
         public Node Last { get; private set; }
         public string No { get; private set; }
 
-        public DaftarAntrian()  
-        {
-            this.No = "Antrian";
-            this.First = this.Last = null;
-        }
 
         public DaftarAntrian(string namaList)   
         {
@@ -46,7 +41,7 @@ namespace FP_SD.Pendaftaran_SIM
             }
         }
 
-        public object RemoveFirst() // Method untuk menghapus dan mengembalikan elemen pertama dari antrian
+        public object RemoveFirst() // Method untuk menghapus elemen pertama dari antrian
         {
             object itemRemove = null;
             if (!IsEmpty())

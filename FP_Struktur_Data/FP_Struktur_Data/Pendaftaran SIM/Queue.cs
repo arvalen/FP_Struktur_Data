@@ -28,7 +28,7 @@ namespace FP_Struktur_Data.Pendaftaran_SIM
             }
         }
 
-        public object Dequeue() // Method untuk menghapus dan mengembalikan objek dari depan antrian
+        public object Dequeue() // Method untuk menghapus antrian
         {
             return daftarAntrian.RemoveFirst();
         }
@@ -43,10 +43,6 @@ namespace FP_Struktur_Data.Pendaftaran_SIM
             daftarAntrian.Display();
         }
 
-        public void Display(string no, string nama, string alamat, string jenisSIM, DateTime tanggalPendaftaran)    // Method untuk menampilkan daftar antrian
-        {
-            daftarAntrian.Display();
-        }
 
     }
 }

@@ -7,9 +7,9 @@ using FP_Struktur_Data.Pendaftaran_SIM;
 
 public class SIMQ
 {   
-    private int pilihan;    // Variabel untuk menyimpan pilihan menu pengguna
-    private Queue sim = new Queue();    // Objek antrian untuk menyimpan pendaftar SIM
-    private int counter = 1;    // Penghitung untuk nomor pendaftar
+    private int pilihan;    
+    private Queue sim = new Queue();    
+    private int counter = 1;   
     private bool bersihkanTampilan = true;  // Status untuk membersihkan layar setelah setiap iterasi menu
 
     public void Run()   
@@ -58,8 +58,8 @@ public class SIMQ
         {
             try
             {
-                pilihan = Convert.ToInt32(Console.ReadLine());  // Mengkonversi input pengguna menjadi integer
-                break;  // Jika konversi berhasil, keluar dari loop
+                pilihan = Convert.ToInt32(Console.ReadLine());  
+                break;  
             }
             catch (FormatException)
             {   

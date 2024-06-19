@@ -24,13 +24,8 @@ namespace FP_Struktur_Data.Pendaftaran_SIM
             this.TanggalPendaftaran = tanggalPendaftaran;
         }
 
-        // Method untuk mendapatkan nama pendaftar
-        public string GetNama()
-        {
-            return Nama;
-        }
 
-        public override string ToString()    // Override method ToString untuk representasi string dari objek DataPendaftar
+        public override string ToString()   
         {
             return string.Format("  {0}   {1}   {2}   {3}   {4}\n", No, Nama, Alamat, JenisSIM, TanggalPendaftaran.ToString("dd/MM/yyyy HH:mm:ss"));
         }
