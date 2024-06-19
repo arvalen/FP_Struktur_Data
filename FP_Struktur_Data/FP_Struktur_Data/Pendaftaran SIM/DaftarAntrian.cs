@@ -10,13 +10,13 @@ namespace FP_SD.Pendaftaran_SIM
         public Node Last { get; private set; }
         public string No { get; private set; }
 
-        public DaftarAntrian()  // Konstruktor untuk inisialisasi antrian kosong
+        public DaftarAntrian()  
         {
             this.No = "Antrian";
             this.First = this.Last = null;
         }
 
-        public DaftarAntrian(string namaList)    // Konstruktor untuk inisialisasi antrian dengan nama tertentu
+        public DaftarAntrian(string namaList)   
         {
             this.No = namaList;
             this.First = this.Last = null;

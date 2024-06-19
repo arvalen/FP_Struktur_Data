@@ -12,10 +12,10 @@ public class SIMQ
     private int counter = 1;    // Penghitung untuk nomor pendaftar
     private bool bersihkanTampilan = true;  // Status untuk membersihkan layar setelah setiap iterasi menu
 
-    public void Run()   // Method untuk memulai program
+    public void Run()   
     {
         do
-        {   // Menampilkan menu dan meminta input pengguna
+        {   
             TampilkanMenu();
             PilihMenu();
         } while (pilihan != 0);
@@ -25,7 +25,7 @@ public class SIMQ
     {
         if (bersihkanTampilan)
         {
-            Console.Clear();// Membersihkan layar jika status bersihkanTampilan true
+            Console.Clear();
 
             // Menampilkan header SIMQ
             Console.WriteLine(" .----------------.  .----------------.  .----------------.  .----------------. ");
@@ -62,11 +62,11 @@ public class SIMQ
                 break;  // Jika konversi berhasil, keluar dari loop
             }
             catch (FormatException)
-            {   // Menangani kesalahan format jika pengguna memasukkan selain angka
+            {   
                 Console.WriteLine("===Pilihan Menu Tidak Tersedia===");
                 Console.WriteLine("Tekan sembarang tombol untuk melanjutkan.");
                 Console.ReadKey();
-                TampilkanMenu();    // Tampilkan kembali menu setelah pesan error
+                TampilkanMenu();    
             }
         }
 
@@ -87,7 +87,7 @@ public class SIMQ
             default:
                 Console.WriteLine("\n===Pilihan Menu Tidak Tersedia===");
                 Console.WriteLine("Silahkan Masukkan Ulang Input Anda\n");
-                break;  // Kembali ke loop untuk meminta input ulang
+                break;  
 
         }
 
@@ -103,15 +103,41 @@ public class SIMQ
     {
         Console.WriteLine("\n=========================-Pendaftaran-========================");
 
-        string no = counter.ToString("D4");  // Membuat nomor pendaftar dengan format D4 (misal: 0001, 0002, dst.)
+        string no = counter.ToString("D4");  // Membuat nomor pendaftar dengan format (misal: 0001, 0002, dst.)
 
-        // Meminta input nama pendaftar 
-        Console.Write("Masukkan Nama Pendaftar: ");
-        string nama = Console.ReadLine();
+        // Input nama pendaftar tidak boleh kosong
+        string nama;
+        while (true)
+        {
+            Console.Write("Masukkan Nama Pendaftar: ");
+            nama = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(nama))
+            {
+                nama = nama.ToUpper(); 
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Nama pendaftar tidak boleh kosong. Silahkan masukkan nama yang valid.");
+            }
+        }
 
-        // Meminta input alamat pendaftar 
-        Console.Write("Masukkan Alamat Pendaftar: ");
-        string alamat = Console.ReadLine();
+        // Input alamat pendaftar tidak boleh kosong
+        string alamat;
+        while (true)
+        {
+            Console.Write("Masukkan Alamat Pendaftar: ");
+            alamat = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(alamat))
+            {
+                alamat = alamat.ToUpper(); 
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Alamat pendaftar tidak boleh kosong. Silahkan masukkan alamat yang valid.");
+            }
+        }
 
         string jenisSIM;
         // Memvalidasi input jenis SIM yang hanya boleh A, B, atau C
@@ -129,14 +155,12 @@ public class SIMQ
             }
         }
 
-        // Mendapatkan tanggal dan waktu pendaftaran saat ini
         DateTime tanggalPendaftaran = DateTime.Now;
 
-        // Membuat objek DataPendaftar dengan data yang dimasukkan
         DataPendaftar kartu = new DataPendaftar(no, nama, alamat, jenisSIM, tanggalPendaftaran);
         sim.Enqueue(kartu, 0);  // Menambahkan pendaftar ke dalam antrian SIM
 
-        counter++;  // Menambahkan penghitung nomor pendaftar
+        counter++;  
     }
 
     private void DaftarAntrian()    // Method untuk menampilkan daftar antrian pendaftar SIM

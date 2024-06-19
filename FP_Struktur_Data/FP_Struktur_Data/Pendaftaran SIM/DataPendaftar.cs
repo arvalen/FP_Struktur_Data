@@ -14,7 +14,7 @@ namespace FP_Struktur_Data.Pendaftaran_SIM
         private string JenisSIM { get; set; }
         private DateTime TanggalPendaftaran { get; set; }
 
-        // Konstruktor untuk inisialisasi data pendaftar// Konstruktor untuk inisialisasi data pendaftar
+        // Konstruktor untuk inisialisasi data pendaftar
         public DataPendaftar(string no, string nama, string alamat, string jenisSIM, DateTime tanggalPendaftaran)
         {
             this.No = no;
