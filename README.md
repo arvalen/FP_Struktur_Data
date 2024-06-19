@@ -9,8 +9,7 @@
 
 ## Queue
 - **Dalam Kelas Queue:**
-  - Objek `daftarAntrian` digunakan sebagai representasi dari antrian, yang sebenarnya adalah sebuah objek dari kelas DaftarAntrian.
-  - Metode `Enqueue` digunakan untuk menambahkan objek ke dalam antrian. Terdapat pengecekan untuk menentukan apakah objek harus ditambahkan ke ujung depan atau belakang antrian, tergantung pada parameter `n`.
+  - Metode `Enqueue` digunakan untuk menambahkan objek ke dalam antrian. Terdapat pengecekan untuk menentukan apakah objek harus ditambahkan ke ujung depan atau belakang antrian.
   - Metode `Dequeue` digunakan untuk menghapus dan mengembalikan objek dari depan antrian, diimplementasikan menggunakan metode `RemoveFirst` dari kelas `DaftarAntrian`.
   - Metode `IsEmpty` digunakan untuk memeriksa apakah antrian kosong, menggunakan metode `IsEmpty` dari kelas `DaftarAntrian`.
   - Metode `Display` digunakan untuk menampilkan semua elemen dalam antrian, menggunakan metode `Display` dari kelas `DaftarAntrian`.
@@ -28,7 +27,7 @@
 - **Fields:**
   - `daftarAntrian`: Objek DaftarAntrian untuk menyimpan data dalam antrian.
 - **Methods:**
-  - `Enqueue(object obj, int n)`: Memasukkan objek ke dalam antrian, menggunakan metode AddLast atau AddFirst berdasarkan nilai n.
+  - `Enqueue(object obj, int n)`: Memasukkan objek ke dalam antrian, menggunakan metode AddLast atau AddFirst.
   - `Dequeue()`: Menghapus dan mengembalikan objek dari depan antrian.
   - `IsEmpty()`: Memeriksa apakah antrian kosong.
   - `Display()`: Menampilkan semua elemen dalam antrian.
@@ -42,7 +41,6 @@
   - `TanggalPendaftaran`: Tanggal pendaftaran.
 - **Methods:**
   - `DataPendaftar(string no, string nama, string alamat, string jenisSIM, DateTime tanggalPendaftaran)`: Konstruktor untuk inisialisasi data pendaftar.
-  - `GetNama()`: Mengembalikan nama pendaftar.
   - `ToString()`: Representasi string dari objek DataPendaftar.
 
 ## Class DaftarAntrian
@@ -53,7 +51,6 @@
   - `Nama`: Nama antrian.
 - **Methods:**
   - `DaftarAntrian()`: Konstruktor untuk inisialisasi antrian kosong.
-  - `DaftarAntrian(string namaList)`: Konstruktor untuk inisialisasi antrian dengan nama tertentu.
   - `AddFirst(object data)`: Menambahkan elemen ke depan antrian.
   - `AddLast(object data)`: Menambahkan elemen ke belakang antrian.
   - `RemoveFirst()`: Menghapus dan mengembalikan elemen pertama dari antrian.
@@ -67,7 +64,6 @@
   - `counter`: Penghitung untuk nomor pendaftar.
   - `bersihkanTampilan`: Status untuk membersihkan layar setelah setiap iterasi menu.
 - **Methods:**
-  - `Run()`: Memulai program dengan menampilkan menu dan meminta input pengguna.
   - `TampilkanMenu()`: Menampilkan menu pada layar.
   - `PilihMenu()`: Memproses pilihan menu pengguna.
   - `Pendaftaran()`: Meminta data pendaftar dan menambahkannya ke dalam antrian.
