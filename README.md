@@ -32,7 +32,6 @@
   - `Dequeue()`: Menghapus dan mengembalikan objek dari depan antrian.
   - `IsEmpty()`: Memeriksa apakah antrian kosong.
   - `Display()`: Menampilkan semua elemen dalam antrian.
-  - `Display(string no, string nama, string alamat, string jenisSIM, DateTime tanggalPendaftaran)`: Metode yang belum digunakan (tidak ada implementasi).
 
 ## Class DataPendaftar
 - **Properties:**
