@@ -1,7 +1,6 @@
 
 
-## 5053231006 - Valentino Aruan 		        
-## 5053231026 - Pradnadibya Imtiyaz Shidqi	
+	
 
 # Struktur Data SIMQ
 
